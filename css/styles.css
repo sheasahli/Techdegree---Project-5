@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+
+/** --- General ---- **/
+
  html, body {
   height: 100%;
   margin: 0;
@@ -13,3 +16,30 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.container {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+/** --- Header ---- **/
+
+a, input {
+  display: inline-block;
+}
+
+header {
+  padding: 2em;
+}
+
+header #search {
+  padding: 0.85em;
+  width: 60%;
+  font-size: 1.2em;
+  border-radius: 5px;
+  outline: none;
+  color: gray;
+}
+
+/** --- Grid ---- **/
